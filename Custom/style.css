@@ -1,0 +1,14 @@
+body
+{
+    background-color:rgb(151, 94, 29);
+    text-align: center;
+}
+
+.grid
+{
+    display: grid;
+}
+.Unterlage
+{
+    background-color: white;
+}
