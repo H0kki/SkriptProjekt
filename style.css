@@ -22,16 +22,16 @@ body
  
     background-color: #a2b11b;
 }
-.banner img{
+/* .banner img{
     object-fit: cover;
     object-position: center;
 
-}
+} */
 .auswahl
 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr; */
     grid-column-end: span 3;
     background-color: white;
     text-align: center;
@@ -43,6 +43,7 @@ body
 #übersicht
 {
     grid-column-end: span 3;
+    /* height: 100px; */
     
 }
 
@@ -58,14 +59,29 @@ h1
    grid-column-end: span 1;
    padding: 10px;
 }
+#salami img
+{
+    width: 100%;
+}
 
 #margherita
 {
         grid-column-end: span 1;
         padding: 10px;
+        
+        
 }
+#margherita img
+{
+    width: 100%;
+}
+
 #thunfisch
 {
     grid-column-end: span 1;
     padding: 10px;
+}
+#thunfisch img
+{
+    width: 100%;
 }
