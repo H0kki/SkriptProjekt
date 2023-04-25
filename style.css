@@ -1,0 +1,71 @@
+body
+{
+    background-color:rgb(151, 94, 29);
+    
+}
+
+.grid
+{
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+   
+}
+
+.banner
+{
+    grid-column-end: span 3;
+    text-align: center;
+    margin: 20px;    
+    height: 200px; /*Banner höhe daran anpassen*/
+ 
+    background-color: #a2b11b;
+}
+.banner img{
+    object-fit: cover;
+    object-position: center;
+
+}
+.auswahl
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-end: span 3;
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+#übersicht
+{
+    grid-column-end: span 3;
+    
+}
+
+h1
+{
+    text-align: center;
+    
+}
+
+#salami
+{
+   
+   grid-column-end: span 1;
+   padding: 10px;
+}
+
+#margherita
+{
+        grid-column-end: span 1;
+        padding: 10px;
+}
+#thunfisch
+{
+    grid-column-end: span 1;
+    padding: 10px;
+}
