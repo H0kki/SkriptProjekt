@@ -17,3 +17,22 @@ body
 {
     background-color: white;
 }
+#pizzaboden
+{
+    background-image: url(Bilder/platte.jpg);
+}
+
+.klein {
+    width: 960px;
+    height: 720px;
+}
+
+.groß {
+    width: 1100px;
+    height: 900px;
+}
+
+.party {
+    width: 1500px;
+    height: 1100px;
+}

@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js" defer></script>
     <link rel="stylesheet" href="style.css">
-    <script src="skript.js"></script>
+    <script src="app.js"></script>
     <title>Custom Pizza</title>
 </head>
 <body>
@@ -10,14 +12,16 @@
         <div class="banner"><img src="/bilder/banner.jpg" alt="Banner" ></div>
 
         <div class="Unterlage">
-            <h6>Bitte wählen Sie eine Größe aus</h6>
+            <h4>Bitte wählen Sie eine Größe aus</h4>
             <select name="Größe" id="Größe">
                 <option value="klein">Klein</option>
                 <option value="groß">Groß</option>
                 <option value="party">Party</option>
             </select>
 
-
+            <div id="pizzaboden">
+                <img id="pizza" class="klein" src="Bilder/PizzaPizza.png" alt="Pizza">
+            </div>
         </div>
 </body>
 </html>
